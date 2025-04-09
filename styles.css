@@ -1,0 +1,16 @@
+p {
+    color: blue;
+    background-color: lightgreen;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.Goomba {
+    width: 100px;
+}
+
+.heading {
+    font-family: Helvetica;
+}
