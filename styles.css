@@ -1,5 +1,5 @@
 p {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
@@ -9,14 +9,14 @@ p {
     width: 100px;
 }
 
-:root {
+/* :root {
     font-size: 16px;
-}
+} */
 
 .heading {
     font-family: Helvetica;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 5rem;
 }
