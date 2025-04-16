@@ -1,17 +1,14 @@
 p {
     font-size: 2rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     padding: 10px;
+    text-align: center;
 }
 
-.Goomba {
-    width: 100px;
+p a {
+    font-size: inherit;
 }
-
-/* :root {
-    font-size: 16px;
-} */
 
 .heading {
     font-family: Helvetica;
@@ -19,4 +16,67 @@ p {
 
 h1 {
     font-size: 5rem;
+    text-align: center;
+}
+
+a {
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 20%;
+    height: auto;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.left-align:first-of-type {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p + .left-align {
+    margin-top: 100px;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+.bottom-links a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* No gap between images */
+}
+
+.image-container img {
+    max-width: 20%;
+    height: auto;
+    margin: 0; /* Removes any default margin around the images */
+    padding: 0; /* Ensures no padding is applied */
+}
+
+.no-spacing {
+    margin-top: 0;
+    margin-bottom: 0;
 }
