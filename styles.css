@@ -1,14 +1,14 @@
 p {
-    color: blue;
-    background-color: lightgreen;
-    font-size: 5rem;
+    /* color: blue;
+    background-color: lightgreen; */
+    font-size: 2rem;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
 }
 
 :root {
-    font-size: 16px; /* Default root font size */
+    font-size: 16px;
 }
 
 .Goomba {
@@ -20,5 +20,5 @@ p {
 }
 
 h1 {
-    font-size: 15rem;
+    font-size: 5rem;
 }
