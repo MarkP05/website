@@ -1,7 +1,5 @@
 p {
-    /* color: blue;
-    background-color: lightgreen; */
-    font-size: 2rem;
+    font-size: 1rem;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
@@ -11,10 +9,14 @@ p {
     width: 100px;
 }
 
+:root {
+    font-size: 16px;
+}
+
 .heading {
     font-family: Helvetica;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 2rem;
 }
